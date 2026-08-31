@@ -1,0 +1,22 @@
+export const internship = {
+  name: 'Praktik Kerja Lapangan',
+  shortName: 'PKL',
+  credits: 3,
+  earliestSemester: 6,
+  description: '',
+  requirements: [],
+  stages: [],
+  forms: [],
+  documents: [],
+  coordinator: '',
+  dates: [],
+  todo: {
+    description: 'TODO: Menunggu deskripsi resmi PKL.',
+    requirements: 'TODO: Menunggu persyaratan pendaftaran resmi PKL.',
+    stages: 'TODO: Menunggu alur resmi PKL.',
+    forms: 'TODO: Menunggu formulir resmi PKL.',
+    documents: 'TODO: Menunggu daftar dokumen resmi PKL.',
+    coordinator: 'TODO: Menunggu informasi koordinator resmi PKL.',
+    dates: 'TODO: Menunggu jadwal resmi PKL.',
+  },
+}

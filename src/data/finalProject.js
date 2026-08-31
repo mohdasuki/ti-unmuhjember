@@ -1,0 +1,25 @@
+export const finalProject = {
+  name: 'Tugas Akhir',
+  credits: 4,
+  mentoringEarliestSemester: 6,
+  description: '',
+  requirements: [],
+  stages: [
+    { name: 'Proposal', description: '' },
+    { name: 'Seminar Kemajuan', description: '' },
+    { name: 'Sidang', description: '' },
+  ],
+  forms: [],
+  documents: [],
+  coordinator: '',
+  dates: [],
+  todo: {
+    description: 'TODO: Menunggu deskripsi resmi Tugas Akhir.',
+    requirements: 'TODO: Menunggu persyaratan administratif resmi Tugas Akhir.',
+    stageDetails: 'TODO: Menunggu rincian resmi setiap tahapan Tugas Akhir.',
+    forms: 'TODO: Menunggu formulir resmi Tugas Akhir.',
+    documents: 'TODO: Menunggu daftar dokumen resmi Tugas Akhir.',
+    coordinator: 'TODO: Menunggu informasi koordinator resmi Tugas Akhir.',
+    dates: 'TODO: Menunggu jadwal resmi Tugas Akhir.',
+  },
+}
