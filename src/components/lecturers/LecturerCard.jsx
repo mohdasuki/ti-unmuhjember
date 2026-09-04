@@ -1,4 +1,4 @@
-import { UserRound } from 'lucide-react'
+import { GraduationCap, UserRound } from 'lucide-react'
 import Badge from '../common/Badge.jsx'
 import Card from '../common/Card.jsx'
 
@@ -26,11 +26,21 @@ function LecturerPhoto({ lecturer }) {
 }
 
 function LecturerCard({ lecturer }) {
+  const isDoctor = lecturer.degree.includes('Dr.')
+
   return (
     <Card as="article" className="overflow-hidden p-0">
       <LecturerPhoto lecturer={lecturer} />
       <div className="p-5">
-        <h2 className="text-lg font-bold leading-6 text-neutral-900">{lecturer.name}</h2>
+        <div className="flex flex-wrap items-center gap-2">
+          <h2 className="text-lg font-bold leading-6 text-neutral-900">{lecturer.name}</h2>
+          {isDoctor && (
+            <Badge aria-label="Dosen bergelar doktor">
+              <GraduationCap aria-hidden="true" className="mr-1" size={14} />
+              Doktor
+            </Badge>
+          )}
+        </div>
         <p className="mt-1 text-sm text-neutral-500">{lecturer.degree}</p>
 
         {lecturer.nidn && (
