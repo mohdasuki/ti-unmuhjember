@@ -8,7 +8,7 @@ function LecturerPhoto({ lecturer }) {
       <img
         src={lecturer.photo}
         alt={`Foto ${lecturer.name}`}
-        className="mx-auto mt-6 size-40 rounded-full border-4 border-white bg-neutral-100 object-cover object-[center_20%] shadow-sm"
+        className="mx-auto mt-6 size-44 rounded-full border-4 border-white bg-neutral-100 object-cover object-center sm:size-48 shadow-sm"
         loading="lazy"
       />
     )
@@ -16,7 +16,7 @@ function LecturerPhoto({ lecturer }) {
 
   return (
     <div
-      className="mx-auto mt-6 grid size-40 place-items-center rounded-full bg-brand-50 text-brand-700"
+      className="mx-auto mt-6 grid size-44 place-items-center rounded-full sm:size-48 bg-brand-50 text-brand-700"
       role="img"
       aria-label={`Foto ${lecturer.name} belum tersedia`}
     >
