@@ -8,7 +8,7 @@ function LecturerPhoto({ lecturer }) {
       <img
         src={lecturer.photo}
         alt={`Foto ${lecturer.name}`}
-        className="aspect-[4/3] w-full bg-neutral-100 object-contain"
+        className="mx-auto mt-6 size-40 rounded-full border-4 border-white bg-neutral-100 object-cover object-[center_20%] shadow-sm"
         loading="lazy"
       />
     )
@@ -16,7 +16,7 @@ function LecturerPhoto({ lecturer }) {
 
   return (
     <div
-      className="grid aspect-[4/3] w-full place-items-center bg-brand-50 text-brand-700"
+      className="mx-auto mt-6 grid size-40 place-items-center rounded-full bg-brand-50 text-brand-700"
       role="img"
       aria-label={`Foto ${lecturer.name} belum tersedia`}
     >
