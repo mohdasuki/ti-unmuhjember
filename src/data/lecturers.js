@@ -19,6 +19,6 @@ export const lecturers = [
   { id: 21, name: 'Rosita Yanuarti', degree: 'S.Kom., M.Cs', nidn: '', academicRank: '', expertise: [], courses: [], photo: new URL('../assets/lecturers/Rosita-Yanuarti.jpg', import.meta.url).href, sinta: '', googleScholar: '', orcid: '' },
   { id: 22, name: 'Taufiq Timur W.', degree: 'S.Kom., M.Kom.', nidn: '', academicRank: '', expertise: [], courses: [], photo: '', sinta: '', googleScholar: '', orcid: '' },
   { id: 23, name: 'Triawan Adi Cahyanto', degree: 'M.Kom', nidn: '', academicRank: '', expertise: [], courses: [], photo: '', sinta: '', googleScholar: '', orcid: '' },
-  { id: 24, name: 'Yeni Dwi Rahayu', degree: 'M.Kom', nidn: '', academicRank: '', expertise: [], courses: [], photo: new URL('../assets/lecturers/Yeni-Dwi-Rahayu.jpg', import.meta.url).href, sinta: '', googleScholar: '', orcid: '' },
+  { id: 24, name: 'Yeni Dwi Rahayu', degree: 'Dr., M.Kom', nidn: '', academicRank: '', expertise: [], courses: [], photo: new URL('../assets/lecturers/Yeni-Dwi-Rahayu.jpg', import.meta.url).href, sinta: '', googleScholar: '', orcid: '' },
   { id: 26, name: 'Zainul Arifin', degree: 'S.Si., M.Kom', nidn: '', academicRank: '', expertise: [], courses: [], photo: new URL('../assets/lecturers/Zainul-Arifin.jpg', import.meta.url).href, sinta: '', googleScholar: '', orcid: '' },
 ]
