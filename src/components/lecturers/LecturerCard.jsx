@@ -8,7 +8,7 @@ function LecturerPhoto({ lecturer }) {
       <img
         src={lecturer.photo}
         alt={`Foto ${lecturer.name}`}
-        className="aspect-[4/3] w-full object-cover"
+        className="aspect-[4/3] w-full bg-neutral-100 object-contain"
         loading="lazy"
       />
     )
